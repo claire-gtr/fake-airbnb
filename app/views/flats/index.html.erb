@@ -1,0 +1,7 @@
+<h1>All the flats</h1>
+
+<ul>
+  <% @flats.each do |flat| %>
+  <li><%= flat['name'] %> - <%= flat['price'] %>€</li>
+  <% end %>
+</ul>
